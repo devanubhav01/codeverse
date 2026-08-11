@@ -23,7 +23,7 @@ int main(){
     current->link=NULL;
 
     head->link->link=current;
-
+print_data(head);
     
     return 0;
 }

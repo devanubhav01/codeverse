@@ -22,5 +22,6 @@ int main(){
 
     head->link->link=current;
 
+    count_of_nodes(head);
     return 0;
 }

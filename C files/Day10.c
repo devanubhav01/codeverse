@@ -27,7 +27,7 @@ int main()
 
     struct node *ptr = head;
     ptr = add_at_end(ptr, 98);
-    ptr = add_at_end(ptr, 3);
+    ptr = add_at_end(ptr, 4);
     ptr = add_at_end(ptr, 67);
     ptr = head;
     while (ptr != NULL)

@@ -19,6 +19,15 @@ void print_data(struct node *head)
     }
 }
 
+struct node* add_at_end(struct node *ptr, int data)
+{
+struct node *temp = malloc(sizeof(struct node));
+temp->data = data;
+temp->link = NULL;
+ptr->link = temp;
+return temp;
+}
+
 int main()
 {
     struct node *head = malloc(sizeof(struct node));

@@ -32,6 +32,11 @@ int main(){
 
     head->link->link=current;
     print_data(head);
+    add_at_end(head, 67);
+
+
+
+
     
     return 0;
 }

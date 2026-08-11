@@ -21,7 +21,16 @@ int main(){
     head->data=45;
     head->link=NULL;
 
-    
+    struct node *ptr = head;
+ptr = add_at_end(ptr, 98);
+ptr = add_at_end(ptr, 3);
+ptr = add_at_end(ptr, 67);
+ptr = head;
+while(ptr != NULL)
+{
+printf("%d ", ptr->data);
+ptr = ptr->link;
+}
     print_data(head);
     
     return 0;

@@ -44,7 +44,7 @@ int main()
         printf("%d ", ptr->data);
         ptr = ptr->link;
     }
-    print_data(head);
+    
 
     return 0;
 }

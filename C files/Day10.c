@@ -21,16 +21,7 @@ int main(){
     head->data=45;
     head->link=NULL;
 
-    struct node *current=malloc(sizeof(struct node));
-    current->data=50;
-    current->link=NULL;
-    head->link=current;
-
-    current =malloc(sizeof(struct node));
-    current->data=4;
-    current->link=NULL;
-
-    head->link->link=current;
+    
     print_data(head);
     
     return 0;

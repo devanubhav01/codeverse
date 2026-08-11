@@ -18,6 +18,7 @@ int main(){
 
     current =malloc(sizeof(struct node));
     current->data=4;
+    current->link=NULL;
     
 
     return 0;

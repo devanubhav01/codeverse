@@ -10,5 +10,7 @@ int main(){
     struct node *head=malloc(sizeof(struct node));
     head->data=45;
     head->link=NULL;
-    
+
+    head=malloc(sizeof(struct node));
+    head->data
 }

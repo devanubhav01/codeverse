@@ -202,7 +202,7 @@ int main()
     add_at_end(head, 67);
     head = add_beg(head, 70);
 
-    add_at_pos(head, 77, 2);
+    add_at_pos(head, 77, 4);
     // head = del_first(head);
     // head = del_last(head);
     // del_last(head);

@@ -24,7 +24,7 @@ class MyEmployee {
 public class Day03 {
     public static void main(String[] args) {
         MyEmployee a = new MyEmployee();
-        // a.id=101;
+         a.id=101;
         // a.name="tesla";
     
     a.setName("tesla");

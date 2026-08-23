@@ -1,4 +1,5 @@
-class MyEmployee{
+class MyEmployee {
+int id;
 
 }
 

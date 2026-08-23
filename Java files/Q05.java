@@ -1,6 +1,6 @@
 class Gta {
     public void hit() {
-        System.out.println();
+        System.out.println("Hitting the ");
     }
 }
 

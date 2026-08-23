@@ -3,7 +3,7 @@ class CellPhone {
         System.out.println("Ringing....");
     }
     public void vibrate() {
-        System.out.println("....");
+        System.out.println("Vibrating....");
     }
 
 }

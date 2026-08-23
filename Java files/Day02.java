@@ -6,7 +6,7 @@ class Employee {
 
 public class Day02 {
 public static void  main(String[] args) {
-        System.out.println("");
+        System.out.println("This is our custoom class");
         
      }
 }

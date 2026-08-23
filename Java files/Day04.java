@@ -32,6 +32,6 @@ public class Day04 {
         g.setName("groot");
         g.setId(12);
         System.out.println(g.getName());
-        System.out.println();
+        System.out.println(g.getId());
     }
 }

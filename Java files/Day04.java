@@ -6,9 +6,9 @@ class Emp {
     //     id = 198;
     //     name = "Rocket";
     // }
-    public Emp() {
+    public Emp(String myName) {
         id = 198;
-        name = "Rocket";
+        name = myName;
     }
     public void setName(String z) {
         name = z;
@@ -32,7 +32,7 @@ class Emp {
 
 public class Day04 {
     public static void main(String[] args) {
-        Emp g = new Emp();
+        Emp g = new Emp("Snowbell");
         // g.setName("groot");
         // g.setId(112);
         System.out.println(g.getName());

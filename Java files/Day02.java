@@ -20,6 +20,7 @@ public static void  main(String[] args) {
         Employee a = new Employee();
         Employee b = new Employee();
         a.id = 51;
+        a.salary = 50000;
         a.name = "trump";
         b.id = 100;
         b.name = "kim";

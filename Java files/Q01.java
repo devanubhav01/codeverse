@@ -21,7 +21,7 @@ public class Q01 {
        Employee a = new Employee();
        a.setName("kim");
        a.salary = 50000;
-       System.out.println();
+       System.out.println(a.getSalary());
        System.out.println(a.getName());
    }
 }

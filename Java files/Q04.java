@@ -14,6 +14,8 @@ class Rectangle {
 public class Q04 {
     public static void main(String[] args) {
         Rectangle z = new Rectangle();
-        z.length=
+        z.length = 5;
+        z.breadth = 4;
+        System.out.println(z.area());
     }
 }

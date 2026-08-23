@@ -1,6 +1,6 @@
 class CellPhone {
     public void ring() {
-        System.out.println("");
+        System.out.println("Ringing....");
     }
 
 }

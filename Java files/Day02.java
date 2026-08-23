@@ -11,7 +11,7 @@ class Employee {
 
 public class Day02 {
 public static void  main(String[] args) {
-        System.out.println("This is our custoom class");
+        System.out.println("This is our custom class");
         Employee a = new Employee();
         Employee b = new Employee();
         a.id = 51;

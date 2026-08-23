@@ -13,6 +13,7 @@ class Rectangle {
 
 public class Q04 {
     public static void main(String[] args) {
-        
+        Rectangle z = new Rectangle();
+        z.length=
     }
 }

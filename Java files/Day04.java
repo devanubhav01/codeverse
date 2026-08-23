@@ -4,7 +4,7 @@ class Emp {
 
     public Emp() {
         id = 198;
-        name = "russia";
+        name = "";
     }
     public void setName(String z) {
         name = z;

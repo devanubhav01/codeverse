@@ -1,6 +1,5 @@
-class MyEmployee {
+class MyEmployee{
 
-    
 }
 
 public class Day03 {

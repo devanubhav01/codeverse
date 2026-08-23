@@ -30,6 +30,7 @@ public class Day03 {
     a.setName("tesla");
     a.setId(1234);
     System.out.println(a.getName());
+    System.out.println(a.getId());
 }
     
 }

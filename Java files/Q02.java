@@ -8,7 +8,7 @@ class CellPhone {
     }
 
     public void callFriend() {
-        System.out.println("Vibrating....");
+        System.out.println("Calling ....");
     }
 
 }

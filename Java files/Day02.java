@@ -3,7 +3,8 @@ class Employee {
     String name;
 
     public void printDetails() {
-        System.out.println("My id is"+ id);
+        System.out.println("My id is" + id);
+        System.out.println();
     }
 }
 

@@ -17,5 +17,6 @@ public class Q04 {
         z.length = 5;
         z.breadth = 4;
         System.out.println(z.area());
+        System.out.println(z.perimeter());
     }
 }

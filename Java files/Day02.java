@@ -21,5 +21,6 @@ public static void  main(String[] args) {
         // System.out.println(a.id);
         // System.out.println(a.name);
         a.printDetails();
+        b.printDetails();
      }
 }

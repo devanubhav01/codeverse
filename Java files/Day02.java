@@ -4,7 +4,7 @@ class Employee {
 
     public void printDetails() {
         System.out.println("My id is" + id);
-        System.out.println();
+        System.out.println("and My name is "+ name);
     }
 }
 

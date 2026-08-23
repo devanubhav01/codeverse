@@ -2,10 +2,10 @@ class Emp {
     private int id;
     private String name;
 
-    // public Emp() {
-    //     id = 198;
-    //     name = "Rocket";
-    // }
+    public Emp() {
+        id = 198;
+        name = "Rocket";
+    }
     public Emp(String myName, int myId) {
         id = myId;
         name = myName;

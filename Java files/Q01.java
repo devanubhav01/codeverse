@@ -10,5 +10,8 @@ public class Q01 {
     public String getName() {
         return name;
     }
-    
+
+    public void setName(String z) {
+        name = z;
+    }
 }

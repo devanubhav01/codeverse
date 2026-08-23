@@ -1,3 +1,6 @@
-public class Q06 {
+
+
+
+ class Q06 {
     
 }

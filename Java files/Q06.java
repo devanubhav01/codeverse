@@ -1,4 +1,5 @@
 class Circle {
+    int radius;
     
 }
 

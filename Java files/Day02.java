@@ -17,7 +17,7 @@ public static void  main(String[] args) {
         a.id = 51;
         a.name = "trump";
         b.id = 100;
-        a.name = "kim";
+        b.name = "kim";
         // System.out.println(a.id);
         // System.out.println(a.name);
         a.printDetails();

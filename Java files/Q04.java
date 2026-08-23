@@ -5,8 +5,14 @@ class Rectangle {
     public int area() {
         return length * breadth;
     }
+
+    public int perimeter() {
+        return 2*(length + breadth);
+    }
 }
 
 public class Q04 {
-    
+    public static void main(String[] args) {
+        
+    }
 }

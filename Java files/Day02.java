@@ -5,7 +5,11 @@ class Employee {
 
     public void printDetails() {
         System.out.println("My id is " + id);
-        System.out.println("and My name is "+ name);
+        System.out.println("and My name is " + name);
+    }
+
+    public int getSalary() {
+        return salary;
     }
 }
 

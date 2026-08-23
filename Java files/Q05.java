@@ -15,6 +15,6 @@ public class Q05 {
         Gta player1 = new Gta();
         player1.fire();
         player1.run();
-        p
+        player1.hit();
     }
 }

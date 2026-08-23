@@ -11,5 +11,6 @@ public static void  main(String[] args) {
         a.id = 51;
         a.name = "trump";
         System.out.println(a.id);
+        System.out.println(a.name);
      }
 }

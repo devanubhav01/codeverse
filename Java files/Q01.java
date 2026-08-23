@@ -18,7 +18,7 @@ class Employee{
 
 public class Q01 {
    public static void main(String[] args) {
-       Employee d = new Employee();
+       Employee a = new Employee();
 
    }
 }

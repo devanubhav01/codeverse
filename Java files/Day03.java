@@ -1,6 +1,6 @@
 class MyEmployee {
-int id;
-
+    int id;
+String Name;
 }
 
 public class Day03 {

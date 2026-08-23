@@ -2,10 +2,11 @@ class Emp {
     private int id;
     private String name;
 
-    public Emp() {
-        id = 198;
-        name = "Rocket";
-    }
+    // public Emp() {
+    //     id = 198;
+    //     name = "Rocket";
+    // }
+
     public void setName(String z) {
         name = z;
     }

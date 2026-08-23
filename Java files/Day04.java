@@ -4,7 +4,8 @@ class Emp {
 
     public Emp() {
         id = 198;
-        name = "";
+        name = "        name = \"\";\r\n" + //
+                        "";
     }
     public void setName(String z) {
         name = z;

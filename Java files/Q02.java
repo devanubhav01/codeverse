@@ -16,5 +16,8 @@ class CellPhone {
 
 
 public class Q02 {
-    
+    public static void main(String[] args) {
+        CellPhone apple = new CellPhone();
+        
+    }
 }

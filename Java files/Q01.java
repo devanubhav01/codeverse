@@ -20,6 +20,8 @@ public class Q01 {
    public static void main(String[] args) {
        Employee a = new Employee();
        a.setName("kim");
+       a.salary = 50000;
+       System.out.println();
        System.out.println(a.getName());
    }
 }

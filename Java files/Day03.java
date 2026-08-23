@@ -1,5 +1,5 @@
 class MyEmployee {
-   private int id;
+    int id;
    private String name;
 
    public void setName(String z) {

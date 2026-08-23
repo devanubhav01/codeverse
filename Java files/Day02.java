@@ -23,6 +23,7 @@ public static void  main(String[] args) {
         a.salary = 50000;
         a.name = "trump";
         b.id = 100;
+        b.salary = 70000;
         b.name = "kim";
         // System.out.println(a.id);
         // System.out.println(a.name);

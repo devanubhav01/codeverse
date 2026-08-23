@@ -28,7 +28,7 @@ public class Day03 {
         // a.name="tesla";
     
     a.setName("tesla");
-    
+    System.out.println(a.getName());
 }
     
 }

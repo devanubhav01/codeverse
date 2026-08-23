@@ -10,5 +10,6 @@ public static void  main(String[] args) {
         Employee a = new Employee();
         a.id = 51;
         a.name = "trump";
+        
      }
 }

@@ -16,7 +16,7 @@ public static void  main(String[] args) {
         Employee b = new Employee();
         a.id = 51;
         a.name = "trump";
-        a.id = 51;
+        a.id = 100;
         a.name = "trump";
         // System.out.println(a.id);
         // System.out.println(a.name);

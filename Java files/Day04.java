@@ -6,7 +6,10 @@ class Emp {
     //     id = 198;
     //     name = "Rocket";
     // }
-
+    public Emp() {
+        id = 198;
+        name = "Rocket";
+    }
     public void setName(String z) {
         name = z;
     }

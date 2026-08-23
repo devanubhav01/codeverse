@@ -1,7 +1,10 @@
 class Employee {
     int id;
     String name;
-    
+
+    public void printDetails() {
+        
+    }
 }
 
 

@@ -6,7 +6,7 @@ class Gta {
         System.out.println("Running from the enemy");
     }
     public void fire() {
-        System.out.println("Hitting the enemy");
+        System.out.println(" the enemy");
     }
 }
 

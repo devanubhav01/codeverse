@@ -1,3 +1,9 @@
+class Employee {
+    int id;
+    String name;
+}
+
+
 public class Day02 {
 
     

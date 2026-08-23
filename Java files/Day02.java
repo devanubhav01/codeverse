@@ -30,6 +30,6 @@ public static void  main(String[] args) {
         a.printDetails();
         b.printDetails();
         int salary = b.getSalary();
-        
+        System.out.println(salary);
      }
 }

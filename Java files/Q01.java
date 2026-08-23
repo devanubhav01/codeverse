@@ -4,4 +4,11 @@ public class Q01 {
     public int getSalary() {
         return salary;
     }
+
+    String name;
+
+    public String getName() {
+        return name;
+    }
+    
 }

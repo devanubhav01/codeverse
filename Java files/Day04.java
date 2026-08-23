@@ -31,6 +31,7 @@ public class Day04 {
         Emp g = new Emp();
         g.setName("groot");
         g.setId(12);
-        System.out.println();
+        System.out.println(g.getName());
+        
     }
 }

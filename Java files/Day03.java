@@ -29,7 +29,7 @@ public class Day03 {
     
     // a.setName("tesla");
     // System.out.println(a.getName());
-    
+    System.out.println();
 }
     
 }

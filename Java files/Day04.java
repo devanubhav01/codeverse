@@ -6,8 +6,8 @@ class Emp {
     //     id = 198;
     //     name = "Rocket";
     // }
-    public Emp(String myName) {
-        id = 198;
+    public Emp(String myName, int myId) {
+        id = myId;
         name = myName;
     }
     public void setName(String z) {
@@ -32,7 +32,7 @@ class Emp {
 
 public class Day04 {
     public static void main(String[] args) {
-        Emp g = new Emp("Snowbell");
+        Emp g = new Emp("Snowbell",199);
         // g.setName("groot");
         // g.setId(112);
         System.out.println(g.getName());

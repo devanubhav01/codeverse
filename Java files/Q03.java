@@ -14,6 +14,8 @@ public class Q03 {
     public static void main(String[] args) {
         Square z = new Square();
         z.side = 5;
-        System.out.println("area = ");
+        System.out.println(z.area());
+        System.out.println(z.perimeter());
+
     }
 }

@@ -14,5 +14,7 @@ public class Q05 {
     public static void main(String[] args) {
         Gta player1 = new Gta();
         player1.fire();
+        player1.run();
+        p
     }
 }

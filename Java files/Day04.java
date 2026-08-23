@@ -29,6 +29,7 @@ class Emp {
 public class Day04 {
     public static void main(String[] args) {
         Emp g = new Emp();
-        
+        g.setName("groot");
+        g.setId(12);
     }
 }

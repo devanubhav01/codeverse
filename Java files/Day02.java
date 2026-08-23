@@ -1,5 +1,6 @@
 class Employee {
     int id;
+    int salary;
     String name;
 
     public void printDetails() {

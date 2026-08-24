@@ -9,5 +9,7 @@
 
  int main(){
      struct stack *z = (struct stack *)malloc(sizeof(struct stack));
+     z->size = 10;
+     z->top - 1;
      
  }

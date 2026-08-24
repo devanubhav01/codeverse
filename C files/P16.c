@@ -107,8 +107,11 @@ struct node* del_pos(struct node *head,int pos){
     struct node *temp = head;
     struct node *temp2 = NULL;
     while(pos>1){
-        
+        temp = temp->link;
+        pos--;
     }
+    temp2 = temp->prev;
+    temp2->link = temp->link;
 }
 
 int main()

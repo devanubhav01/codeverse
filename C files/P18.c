@@ -16,6 +16,8 @@ void push(struct stack *ptr,int data){
 
 void push(struct stack *ptr){
     int value = ptr->arr[ptr->top];
+    ptr->top--;
+    return value;
 }
 
 

@@ -104,7 +104,7 @@ struct node *del_last(struct node *head)
 }
 
 struct node* del_pos(struct node *head,int pos){
-    
+    struct node *temp = head;
 }
 
 int main()

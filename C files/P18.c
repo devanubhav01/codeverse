@@ -21,11 +21,6 @@ void push(struct stack *ptr){
 }
 
 
-
-
-
-
-
  int main(){
      struct stack *z = (struct stack *)malloc(sizeof(struct stack));
      z->size = 10;

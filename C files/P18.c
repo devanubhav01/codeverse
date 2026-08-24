@@ -8,5 +8,6 @@
  };
 
  int main(){
-    
+     struct stack *z = (struct stack *)malloc(sizeof(struct stack));
+     
  }

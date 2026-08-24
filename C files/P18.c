@@ -29,7 +29,7 @@ void push(struct stack *ptr){
 
      push(z, 50);
      push(z, 55);
-     push(z, 55);
+     push(z, 60);
      push(z, 65);
 
      return 0;

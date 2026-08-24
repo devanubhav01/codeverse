@@ -8,13 +8,32 @@ struct node
     struct node *link;
 };
 
+void print(struct node *head)
+{
+    struct node *ptr = head;
+    while (ptr != NULL)
+    {
+        printf("%d ", ptr->data);
+        ptr = ptr->link;
+    }
+}
+
+struct node *addToEmpty(struct node *head, int data)
+{
+    struct node *temp = malloc(sizeof(struct node));
+    temp->prev = NULL;
+    temp->data = data;
+    temp->link = NULL;
+    head = temp;
+    return head;
+}
+
 int main()
 {
-    struct node *head = malloc(sizeof(struct node));
-    head->prev = NULL;
-    head->data = 45;
-    head->link = NULL;
+    struct node *head = NULL;
+    head = addToEmpty(head, 45);
 
-        printf("%d", head->data);
+    print(head);
+
     return 0;
 }

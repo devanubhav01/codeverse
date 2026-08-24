@@ -6,3 +6,4 @@ struct stack{
     int size;
     int *arr;
 };
+

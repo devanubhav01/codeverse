@@ -112,7 +112,7 @@ int main()
     head = add_at_pos(head, 2, 100);
     //head = del_beg(head);
     //head = del_last(head);
-    
+    head = del_pos(head);
 
     print(head);
 

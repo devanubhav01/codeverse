@@ -10,5 +10,5 @@ struct stack{
 int main(){
     struct stack s;
     s.size = 50;
-    
+    s.top = -1;
 }

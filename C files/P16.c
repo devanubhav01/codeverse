@@ -103,7 +103,7 @@ struct node *del_last(struct node *head)
     return head;
 }
 
-//struct node* del_pos(struct node *head,)
+struct node* del_pos(struct node *head,)
 
 int main()
 {
@@ -114,7 +114,7 @@ int main()
     head = add_at_pos(head, 2, 100);
     //head = del_beg(head);
     //head = del_last(head);
-   // head = del_pos(head);
+    head = del_pos(head);
 
     print(head);
 

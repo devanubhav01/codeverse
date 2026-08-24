@@ -12,4 +12,5 @@
      z->size = 10;
      z->top - 1;
      z->arr = (int *)malloc(z->size * sizeof(int));
+     
  }

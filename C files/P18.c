@@ -8,8 +8,9 @@
  };
  
 
-void push(struct node *z,int data){
-    
+void push(struct stack *ptr,int data){
+    ptr->top++;
+    ptr->arr[ptr->top]=data;
 }
 
 

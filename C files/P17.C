@@ -7,3 +7,6 @@ struct stack{
     int *arr;
 };
 
+int main(){
+    
+}

@@ -115,7 +115,7 @@ struct node* del_pos(struct node *head,int pos){
     temp->link->prev = temp2;
     free(temp);
     temp = NULL;
-    
+    return head;
 }
 
 int main()

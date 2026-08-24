@@ -7,4 +7,6 @@
      int *arr;
  };
 
- 
+ int main(){
+    
+ }

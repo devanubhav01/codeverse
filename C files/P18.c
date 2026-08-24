@@ -28,6 +28,7 @@ void push(struct stack *ptr){
      z->arr = (int *)malloc(z->size * sizeof(int));
 
      push(z, 50);
+     push(z, 55);
 
      return 0;
  }

@@ -110,8 +110,9 @@ int main()
     head = add_beg(head, 55);
     head = add_at_end(head, 95);
     head = add_at_pos(head, 2, 100);
-    head = del_beg(head);
-    head = del_last(head);
+    //head = del_beg(head);
+    //head = del_last(head);
+    
 
     print(head);
 

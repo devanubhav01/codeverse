@@ -14,6 +14,12 @@ void push(struct stack *ptr,int data){
 }
 
 
+void push(struct stack *ptr,int data){
+    ptr->top++;
+    ptr->arr[ptr->top]=data;
+}
+
+
 
 
 

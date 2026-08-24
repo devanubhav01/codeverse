@@ -25,7 +25,7 @@ void push(struct stack *ptr,int data){
      z->top - 1;
      z->arr = (int *)malloc(z->size * sizeof(int));
 
-     pus(z, 50);
+     push(z, 50);
 
      return 0;
  }

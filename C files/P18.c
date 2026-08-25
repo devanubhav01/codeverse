@@ -33,7 +33,7 @@ int pop(struct stack *ptr){
      push(z, 65);
      push(z, 70);
      push(z, 75);
-     push(z, 8);
+     push(z, 80);
 
      
     printf("%d ", pop(z));

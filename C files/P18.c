@@ -34,9 +34,7 @@ int pop(struct stack *ptr){
      push(z, 70);
      push(z, 75);
      push(z, 80);
-     for (int i = 0; i < z->size; i++){
-     }
-
+    
     printf(" %d ", pop(z));
 
      return 0;

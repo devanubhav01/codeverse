@@ -31,6 +31,7 @@ int pop(struct stack *ptr){
      push(z, 55);
      push(z, 60);
      push(z, 65);
+     pop(z);
 
      return 0;
  }

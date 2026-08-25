@@ -33,7 +33,7 @@ int pop(struct stack *ptr){
      push(z, 65);
 
      
-    // pop(z);
+    printf( pop(z));
 
      return 0;
  }

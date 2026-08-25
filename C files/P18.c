@@ -25,7 +25,7 @@ int pop(struct stack *ptr){
      struct stack *z = (struct stack *)malloc(sizeof(struct stack));
      z->size = 7;
      z->top - 1;
-     z->arr = (int *)malloc(z->size * sizeof(int));
+     z->arr = (int *)malloc(z->size*sizeof(int));
 
      push(z, 50);
      push(z, 55);

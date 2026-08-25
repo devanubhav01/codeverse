@@ -34,7 +34,8 @@ int main(){
     s->top = -1;
     s->arr = (int *)malloc(s->size * sizeof(int));
 
-   
+    s->arr[0] = 4;
+    
 
     if(isEmpty(s)){
         printf("the stack is empty");

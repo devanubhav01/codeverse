@@ -31,8 +31,10 @@ int pop(struct stack *ptr){
      push(z, 55);
      push(z, 60);
      push(z, 65);
-      
-     
+
+     for (int i = 0; i < 10; i++)
+     {
+     }
 
      pop(z);
 

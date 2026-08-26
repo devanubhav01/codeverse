@@ -14,6 +14,10 @@ int isEmpty(struct Node *top){
     }
 }
 
+int isFull(struct node *top){
+    
+}
+
 
 
 

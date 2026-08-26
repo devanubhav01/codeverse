@@ -32,7 +32,7 @@ int peek(struct stack *z,int i){
 }
 
 int top(struct stack *z){
-    
+    return z->arr[z->top];
 }
 
  int main(){

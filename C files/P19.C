@@ -6,7 +6,7 @@ struct Node{
     struct Node *link;
 };
 
-void print_data(struct node *head)
+void print_data(struct Node *head)
 {
     if (head == NULL)
     {

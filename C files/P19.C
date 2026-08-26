@@ -19,6 +19,8 @@ int isFull(struct node *top){
 
     if(p==NULL){
         return 1;
+    }else{
+        return 0;
     }
 }
 

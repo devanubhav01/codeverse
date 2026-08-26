@@ -6,6 +6,8 @@ struct Node{
     struct Node *link;
 };
 
+
+
 int isEmpty(struct Node *top){
     if(top==NULL){
         return 1;
@@ -23,6 +25,7 @@ int isFull(struct node *top){
         return 0;
     }
 }
+
 
 
 

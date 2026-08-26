@@ -19,7 +19,9 @@ int pop(struct stack *ptr){
     ptr->top--; 
     return value;
 }
-
+int peek(struct stack *z,int i){
+    
+}
 
  int main(){
      struct stack *z = (struct stack *)malloc(sizeof(struct stack));

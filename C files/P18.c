@@ -22,7 +22,10 @@ int pop(struct stack *ptr){
 int peek(struct stack *z,int i){
     int v = z->top - i + 1;
     if(v<0){
-        
+        printf("Not a valid position ");
+        return -1;
+    }else{
+        return z->arr[v];
     }
 }
 

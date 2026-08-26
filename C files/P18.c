@@ -20,6 +20,7 @@ int pop(struct stack *ptr){
     return value;
 }
 int peek(struct stack *z,int i){
+    int v = z->top - i + 1;
     
 }
 

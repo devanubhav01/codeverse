@@ -7,7 +7,9 @@ struct Node{
 };
 
 int isEmpty(struct Node *top){
-    
+    if(top==NULL){
+        
+    }
 }
 
 

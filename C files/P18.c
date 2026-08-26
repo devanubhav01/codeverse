@@ -31,7 +31,9 @@ int peek(struct stack *z,int i){
     }
 }
 
-int top(struct stack *z)
+int top(struct stack *z){
+    
+}
 
  int main(){
      struct stack *z = (struct stack *)malloc(sizeof(struct stack));

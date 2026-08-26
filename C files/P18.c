@@ -59,7 +59,8 @@ int bottom(struct stack *z){
         printf("The value at position %d is %d\n", j, peek(z, j));
     }
 
+    printf(" %d \n", top(z));
+    printf(" %d \n", top(z));
 
-    
-        return 0;
+    return 0;
  }

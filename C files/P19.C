@@ -29,7 +29,7 @@ int isEmpty(struct Node *top){
     }
 }
 
-int isFull(struct node *top){
+int isFull(struct Node *top){
     struct Node *p = (struct Node *)malloc(sizeof(struct Node));
 
     if(p==NULL){

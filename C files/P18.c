@@ -60,7 +60,7 @@ int bottom(struct stack *z){
     }
 
     printf(" %d \n", top(z));
-    printf(" %d \n", top(z));
+    printf(" %d \n", bottom(z));
 
     return 0;
  }

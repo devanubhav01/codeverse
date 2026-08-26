@@ -35,6 +35,10 @@ int top(struct stack *z){
     return z->arr[z->top];
 }
 
+int top(struct stack *z){
+    return z->arr[z->top];
+}
+
  int main(){
      struct stack *z = (struct stack *)malloc(sizeof(struct stack));
      z->size = 7;

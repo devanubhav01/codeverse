@@ -21,7 +21,9 @@ int pop(struct stack *ptr){
 }
 int peek(struct stack *z,int i){
     int v = z->top - i + 1;
-    
+    if(v<0){
+        
+    }
 }
 
  int main(){

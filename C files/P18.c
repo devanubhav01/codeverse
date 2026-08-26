@@ -35,7 +35,7 @@ int top(struct stack *z){
     return z->arr[z->top];
 }
 
-int top(struct stack *z){
+int botto(struct stack *z){
     return z->arr[z->top];
 }
 

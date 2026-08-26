@@ -6,7 +6,9 @@ struct Node{
     struct Node *link;
 };
 
-
+int isEmpty(struct Node *top){
+    
+}
 
 
 

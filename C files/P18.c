@@ -45,7 +45,7 @@ int peek(struct stack *z,int i){
      push(z, 75);
      push(z, 80);
     
-    printf(" %d ", pop(z));
+    printf(" %d \n", pop(z));
 
     for (int j = 0; j < z->top + 1;j++){
         printf("The value at index %d is %d\n", j, peek(z, j));

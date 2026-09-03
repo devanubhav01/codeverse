@@ -4,3 +4,5 @@ arr[0] = 54;
 console.log(arr,typeof arr)
 console.log(arr.length)
 console.log(arr[0])
+
+console.log(arr)

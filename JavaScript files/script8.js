@@ -21,7 +21,7 @@ c.shift()
 c.unshift("Tom")
 delete c[6]
 c.splice(2,3)
-c.splice(2,3,)
+c.splice(2,3,22,44)
 
 console.log(c)
 

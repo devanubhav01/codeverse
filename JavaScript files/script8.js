@@ -20,6 +20,6 @@ c.push("groot")
 c.shift()
 c.unshift("Tom")
 delete c[6]
-c.length
+
 console.log(c)
 

@@ -10,4 +10,4 @@ console.log(arr.join(" and "))
 
 let b = [1, 2, 3, 4, 5, 6, 7]
 console.log(b)
-(b.pop())
+console.log(b.pop())

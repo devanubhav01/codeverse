@@ -17,5 +17,6 @@ let c = [1, 2, 3, 4, 5, 6]
 console.log(c)
 console.log(c.push(10))
 c.push("groot")
+c.shift()
 console.log(c)
 

@@ -18,6 +18,6 @@ console.log(c)
 console.log(c.push(10))
 c.push("groot")
 c.shift()
-c.unshift()
+c.unshift("Tom")
 console.log(c)
 

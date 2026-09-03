@@ -14,6 +14,6 @@ console.log(b.pop())
 console.log(b)
 
 let c = [1, 2, 3, 4, 5, 6]
-console.log(b)
-console.log(b.pop())
-console.log(b)
+console.log(c)
+console.log(c.pop())
+console.log(c)

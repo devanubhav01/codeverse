@@ -21,5 +21,6 @@ c.shift()
 c.unshift("Tom")
 delete c[6]
 
+
 console.log(c)
 

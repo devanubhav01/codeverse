@@ -20,7 +20,7 @@ c.push("groot")
 c.shift()
 c.unshift("Tom")
 delete c[6]
-
+c,splice()
 
 console.log(c)
 

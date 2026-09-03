@@ -8,4 +8,5 @@ console.log(arr[0])
 console.log(arr.toString())
 console.log(arr.join(" and "))
 
-let b=[1,2,3,4,5,6,7]
+let b = [1, 2, 3, 4, 5, 6, 7]
+b.pop()

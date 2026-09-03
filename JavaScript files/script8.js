@@ -1,6 +1,6 @@
 let arr = [1, 2, 3, 4, 5]
 
 arr[0] = 54;
-console.log(arr,)
+console.log(arr,typeof arr)
 console.log(arr.length)
 console.log(arr[0])

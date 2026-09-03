@@ -5,4 +5,4 @@ console.log(arr,typeof arr)
 console.log(arr.length)
 console.log(arr[0])
 
-console.log(arr)
+console.log(arr.toString())

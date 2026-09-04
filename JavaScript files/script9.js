@@ -5,4 +5,4 @@ for (let i = 0; i < a.length; i++){
     console.log(element)
 }
 
-a.forEach(())
+a.forEach((value,index,arr))

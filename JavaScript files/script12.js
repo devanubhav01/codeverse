@@ -11,7 +11,7 @@ let button = document.getElementById("btn")
 //     alert("Dont hack us by Right click Please")
 // })
 button.addEventListener("click", () => {
-    alert("Dont hack us by Right click Please")
+    alert("I was ")
 })
 
 // document.addEventListener("keydown", (e) => {

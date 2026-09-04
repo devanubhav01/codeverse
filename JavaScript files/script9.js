@@ -8,3 +8,4 @@ for (let i = 0; i < a.length; i++){
 a.forEach((value, index, arr) =>{
     console.log(value,index,arr)
 })
+

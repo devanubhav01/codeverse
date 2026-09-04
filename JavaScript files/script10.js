@@ -18,3 +18,5 @@ let arr = [1, 2, 5, 8, 9, 12]
 //     return false
 // }
 // console.log(arr.filter(greaterThanSeven))
+
+let arr2=[1,2,3,]

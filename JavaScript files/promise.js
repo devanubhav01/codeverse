@@ -14,7 +14,7 @@ prom1.then((a)=> {
 
 //     let a = Math.random();
 //     if (a < 0.5) {
-//         reject("No random number was not supporting you")
+//         reject("No random number was supporting you")
 //     }
 //     else {
 //         setTimeout(() => {

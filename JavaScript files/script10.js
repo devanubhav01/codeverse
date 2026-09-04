@@ -19,4 +19,8 @@ let arr = [1, 2, 5, 8, 9, 12]
 // }
 // console.log(arr.filter(greaterThanSeven))
 
-let arr2=[1,2,3,4,5,6]
+let arr2 = [1, 2, 3, 4, 5, 6]
+
+const red = (a, b) => {
+    
+}

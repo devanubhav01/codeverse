@@ -17,3 +17,4 @@ const greaterThanSeven = (e) => {
     }
     return false
 }
+console.log(a)

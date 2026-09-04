@@ -39,7 +39,7 @@ function getData() {
 
     let data = getData()
 
-//     console.log(data)
+    console.log(data)
 
     console.log("process data")
 

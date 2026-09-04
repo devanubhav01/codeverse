@@ -25,4 +25,4 @@ const red = (a, b) => {
     return a*b
 }
 
-console.log
+console.log(arr2.reduce)

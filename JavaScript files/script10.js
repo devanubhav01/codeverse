@@ -11,3 +11,6 @@ let arr = [1, 2, 5, 8, 9, 12]
 
 // console.log(newArr)
 
+const greaterThanSeven = (e) => {
+    if(e>7)
+}

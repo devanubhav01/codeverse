@@ -5,6 +5,6 @@ let arr = [1, 2, 5, 8, 9, 12]
 //     newArr.push(element**2)
 // }
 
-
+let newAr=arr
 
 console.log(newArr) 

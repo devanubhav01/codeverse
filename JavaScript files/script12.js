@@ -16,5 +16,5 @@ button.addEventListener("contextmenu", () => {
 // })
 
 document.addEventListener("keydown", (e) => {
-    console.log(fygu e.key, e.keyCode)
+    console.log( e.key, e.keyCode)
 })

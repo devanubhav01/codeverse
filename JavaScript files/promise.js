@@ -36,3 +36,4 @@ p3.then((a) => {
     console.log(err)
 })
 
+prom1.then

@@ -15,7 +15,7 @@ let prom1 = new Promise((resolve, reject) => {
 
 
 prom1.then((a) => {
-    
+    console.log(a)
 })
 
 // let prom2 = new Promise((resolve, reject) => {

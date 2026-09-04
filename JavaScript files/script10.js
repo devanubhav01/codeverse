@@ -5,4 +5,4 @@ for (let i = 0; i < a.length; i++){
     newArr.push(element**2)
 }
 
-console.log
+console.log(newArr)

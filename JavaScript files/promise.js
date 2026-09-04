@@ -16,7 +16,7 @@ let prom1 = new Promise((resolve, reject) => {
 
 
 prom1.then((a) => {
-    console.log(a)
+    console.log(a) 
 }).catch((err) => {
     console.log(err)
 })

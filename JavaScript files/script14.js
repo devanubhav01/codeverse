@@ -26,8 +26,8 @@
 //                     'Content-type': 'application/json; charset=UTF-8',
 //                 },
 //             })
-//     let data = await x.json() 
-//     return data
+     let data = await x.json() 
+     return data
 // }
 
  async function main(){

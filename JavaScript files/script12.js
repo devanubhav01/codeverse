@@ -10,7 +10,7 @@ let button = document.getElementById("btn")
 // button.addEventListener("contextmenu", () => {
 //     alert("Dont hack us by Right click Please")
 // })
-button.addEventListener("contextmenu", () => {
+button.addEventListener("click", () => {
     alert("Dont hack us by Right click Please")
 })
 

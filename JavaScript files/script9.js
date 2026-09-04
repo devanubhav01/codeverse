@@ -14,3 +14,6 @@ let obj = {
     b: 2,
     c:3
 }
+for (const key in obj) {
+    
+}

@@ -37,5 +37,5 @@ p3.then((a) => {
 })
 
 prom1.then((a) => {
-    
+    console.log(a)
 })

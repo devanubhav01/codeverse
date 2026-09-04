@@ -7,7 +7,7 @@ if (isNaN(a) || isNaN(b)) {
 
 let sum = parseInt(a) + parseInt(b)
 //console.log("The sum is ",sum)
-// function main() {
+ function main() {
     let x = 1;
     try {
         console.log("The sum is ", sum * x)
@@ -15,12 +15,12 @@ let sum = parseInt(a) + parseInt(b)
 
     } catch (error) {
         console.log("Error aa gaya bhai")
-//         return false
+        return false
      }
      finally {
          console.log("files are being closed and db connection is being closed")
      }
 
-// }
+ }
 
 // let c = main()

@@ -5,7 +5,7 @@ let arr = [1, 2, 5, 8, 9, 12]
 //     newArr.push(element**2)
 // }
 
-let newAr = arr.map((e) => {
+let newArr = arr.map((e) => {
     return e**2
 })
 

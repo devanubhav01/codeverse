@@ -8,7 +8,7 @@ let prom1 = new Promise((resolve, reject) => {
     else {
         setTimeout(() => {
             console.log("Yes I am done")
-            resolve("Harry")
+            resolve("Ge")
         }, 3000);
     }
 })

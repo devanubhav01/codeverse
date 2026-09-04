@@ -17,6 +17,6 @@ let obj = {
 for (const key in obj) {
     if (Object.hasOwnPropert.call(Obj, key)) {
         const element = obj[key];
-        
+        console.log(element)
     }
 }

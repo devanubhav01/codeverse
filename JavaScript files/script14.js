@@ -11,9 +11,9 @@
 // resolve means promise has settled successfully
 // reject means promise has not settled successfully
 
-// async function getData() {
+ async function getData() {
     // Simulate getting data from a server
-    // let x = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+     let x = await fetch('https://jsonplaceholder.typicode.com/todos/1')
 
 //     let x = await fetch('https://jsonplaceholder.typicode.com/posts', {
 //                 method: 'POST',
@@ -28,7 +28,7 @@
 //             })
      let data = await x.json() 
      return data
-// }
+ }
 
  async function main(){
     console.log("Loading modules")

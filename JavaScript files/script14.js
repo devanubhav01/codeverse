@@ -30,7 +30,7 @@ async function getData() {
 //     return data
 // }
 
-// async function main(){
+ async function main(){
     console.log("Loading modules")
 
     console.log("Do something else")
@@ -43,9 +43,9 @@ async function getData() {
 
     console.log("process data")
 
-//     console.log("task 2")
+     console.log("task 2")
 
-// }
+ }
 
 // main()
 

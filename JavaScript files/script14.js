@@ -41,7 +41,7 @@ function getData() {
 
 //     console.log(data)
 
-//     console.log("process data")
+    console.log("process data")
 
 //     console.log("task 2")
 

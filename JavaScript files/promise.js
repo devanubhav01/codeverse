@@ -16,7 +16,7 @@ let prom1 = new Promise((resolve, reject) => {
 
 prom1.then((a) => {
     console.log(a)
-}).catch((err))
+}).catch((err)=>{})
 
 // let prom2 = new Promise((resolve, reject) => {
 //     let a = Math.random();

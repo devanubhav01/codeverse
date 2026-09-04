@@ -15,6 +15,6 @@ button.addEventListener("contextmenu", () => {
 //     alert("I was clicked")
 // })
 
-// document.addEventListener("keydown", (e) => {
-//     console.log(e, e.key, e.keyCode)
-// })
+document.addEventListener("keydown", (e) => {
+    console.log(e, e.key, e.keyCode)
+})

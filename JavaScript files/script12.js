@@ -1,5 +1,5 @@
 let button = document.getElementById("btn")
-// List of all mouse events 
+// List of all mouse events
 // https://developer.mozilla.org/en-US/docs/Web/API/Element#mouse_events
 
 
@@ -10,9 +10,10 @@ let button = document.getElementById("btn")
 // button.addEventListener("contextmenu", () => {
 //     alert("Dont hack us by Right click Please")
 // })
-button.addEventListener("click", () => {
-    alert("I was clicked")
-})
+
+// button.addEventListener("click", () => {
+//     alert("I was clicked")
+// })
 
 // document.addEventListener("keydown", (e) => {
 //     console.log(e, e.key, e.keyCode)

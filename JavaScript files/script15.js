@@ -6,7 +6,7 @@ if (isNaN(a) || isNaN(b)) {
 }
 
 let sum = parseInt(a) + parseInt(b)
-
+console.log("T")
 // function main() {
 //     let x = 1;
 //     try {

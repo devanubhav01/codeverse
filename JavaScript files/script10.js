@@ -15,4 +15,5 @@ const greaterThanSeven = (e) => {
     if (e > 7) {
         return true
     }
+    return false
 }

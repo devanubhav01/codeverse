@@ -15,7 +15,8 @@ let obj = {
     c:3
 }
 for (const key in obj) {
-    if (Object.hasOwnPropert.call(Object, key)) {
-        const element=obj
+    if (Object.hasOwnPropert.call(Obj, key)) {
+        const element = obj[key];
+        
     }
 }

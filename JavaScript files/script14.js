@@ -47,7 +47,7 @@ async function getData() {
 
  }
 
-// main()
+ main()
 
  
 

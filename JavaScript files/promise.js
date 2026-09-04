@@ -2,7 +2,6 @@ console.log('This is Promises');
 
 let prom1 = new Promise((resolve, reject) => {
     let a = Math.random();
-    console.log(a)
     if (a < 0.5) {
         reject("No random number was supporting you")
     }
@@ -16,9 +15,7 @@ let prom1 = new Promise((resolve, reject) => {
 
 
 prom1.then((a) => {
-    console.log(a) 
-}).catch((err) => {
-    console.log(err)
+    console
 })
 
 // let prom2 = new Promise((resolve, reject) => {

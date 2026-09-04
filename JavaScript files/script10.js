@@ -17,4 +17,4 @@ const greaterThanSeven = (e) => {
     }
     return false
 }
-console.log(arr.filter())
+console.log(arr.filter(greaterThan))

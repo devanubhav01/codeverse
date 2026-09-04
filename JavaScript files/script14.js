@@ -37,7 +37,7 @@ async function getData() {
 
     console.log("Load data")
 
-    let data = getData()
+    let data =await getData()
 
     console.log(data)
 

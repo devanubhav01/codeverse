@@ -26,5 +26,5 @@ function createCard(title, cName, views, monthsOld, duration, thumbnail) {
 }
 
 
-createCard("Interstellar 4K HDR IMAX|Into The Black Hole=Gargantua 1/2", "CodeWithHarry", 560000, 7, "31:22", "./hq720.avif")
+createCard("Interstellar 4K HDR IMAX|Into The Black Hole=Gargantua 1/2", "Apex", 560000, 7, "31:22", "./hq720.avif")
 

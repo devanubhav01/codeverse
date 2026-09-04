@@ -22,5 +22,6 @@ let arr = [1, 2, 5, 8, 9, 12]
 let arr2 = [1, 2, 3, 4, 5, 6]
 
 const red = (a, b) => {
-    
+    return a*b
 }
+

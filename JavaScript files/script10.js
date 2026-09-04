@@ -27,4 +27,4 @@ let arr = [1, 2, 5, 8, 9, 12]
 
 // console.log(arr2.reduce(red))
 
-Array.from("Groot")
+console.log(Array.from("Groot"))

@@ -7,6 +7,7 @@ let prom1 = new Promise((resolve, reject) => {
         resolve("Groot")
     }, 3000);
 })
+prom1
 
 
 //     let a = Math.random();

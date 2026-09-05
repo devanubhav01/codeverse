@@ -22,6 +22,7 @@ def hello_world():
     todo=Todo(title="First Todo",desc="Start investing in Stock market")
     db.session.add(todo)
     db.session.commit()
+    
     return render_template('index.html')
 #return 'Hello, World!'
 

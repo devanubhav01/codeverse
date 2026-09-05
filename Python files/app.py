@@ -6,7 +6,7 @@ app.config['SQLALCHEMY_DATABASE_URI']="sqlite:///todo.db"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 db=SQLAlchemy(app)
 class Todo(db.Model):
-    sno=db.Column(db.I)
+    sno=db.Column(db.Integer)
 
 @app.route('/')
 def hello_world():

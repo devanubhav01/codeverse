@@ -8,7 +8,7 @@ def hello_world():
 
 @app.route('/products')
 def products():
-    
+    return 'this is prod'
 
 if __name__=="__main__":
     app.run(debug=True)

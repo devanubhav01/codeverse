@@ -11,7 +11,7 @@ let sum = parseInt(a) + parseInt(b)
     let x = 1;
     try {
         console.log("The sum is ", sum * x)
-      //  return true
+        return true
 
     } catch (error) {
         console.log("Error aa gaya bhai")
@@ -23,4 +23,4 @@ let sum = parseInt(a) + parseInt(b)
 
  }
 
-// let c = main()
+ let c = main()

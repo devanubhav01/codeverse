@@ -27,7 +27,7 @@ def hello_world():
 
 @app.route('/show')
 def products():
-    
+    allT
     return 'this is products page'
 
 if __name__=="__main__":

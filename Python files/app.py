@@ -28,6 +28,7 @@ def hello_world():
 @app.route('/show')
 def products():
     allTodo=Todo.query.all()
+    print
     return 'this is products page'
 
 if __name__=="__main__":

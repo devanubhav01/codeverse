@@ -19,7 +19,7 @@ def __repr__(self)->str:
 
 @app.route('/')
 def hello_world():
-    todo=
+    todo=Todo(title="First")
     return render_template('index.html')
 #return 'Hello, World!'
 

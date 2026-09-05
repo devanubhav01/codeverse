@@ -21,7 +21,7 @@ def __repr__(self)->str:
 def hello_world():
     if request.method=='POST':
         title=request.form['title']
-        title=request.form['title']
+        desc=request.form['desc']
     todo=Todo(title="First Todo",desc="Start investing in Stock market")
     db.session.add(todo)
     db.session.commit()

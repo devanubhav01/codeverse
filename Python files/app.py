@@ -25,8 +25,9 @@ def hello_world():
     return render_template('index.html')
 #return 'Hello, World!'
 
-@app.route('/products')
+@app.route('/show')
 def products():
+    
     return 'this is products page'
 
 if __name__=="__main__":

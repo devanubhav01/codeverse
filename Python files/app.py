@@ -17,7 +17,7 @@ def __repr__(self)->str:
     return f"{self.sno}-{self.title}"
 
 
-@app.route('/')
+@app.route('/',methods=[''])
 def hello_world():
     if request.method=='POST':
         print("post")

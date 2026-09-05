@@ -11,6 +11,8 @@ class Todo(db.Model):
     desc=db.Column(db.String(500),nullable=False)
     date_created=db.Column(db.DateTime,default=datetime.utcnow)
 
+def_
+
 @app.route('/')
 def hello_world():
     return render_template('index.html')

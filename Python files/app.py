@@ -20,7 +20,8 @@ def __repr__(self)->str:
 @app.route('/',methods=['Get','POST'])
 def hello_world():
     if request.method=='POST':
-        title=request.form['title'])
+        title=request.form['title']
+        title=request.form['title']
     todo=Todo(title="First Todo",desc="Start investing in Stock market")
     db.session.add(todo)
     db.session.commit()

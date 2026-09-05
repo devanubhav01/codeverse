@@ -23,7 +23,7 @@ def hello_world():
     db.session.add(todo)
     db.session.commit()
     allTodo=Todo.query.all()
-    print
+    print(allTodo)
     return render_template('index.html')
 #return 'Hello, World!'
 

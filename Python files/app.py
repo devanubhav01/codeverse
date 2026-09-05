@@ -7,7 +7,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 db=SQLAlchemy(app)
 class Todo(db.Model):
     sno=db.Column(db.Integer,primary_key=True)
-    title=db
+    title=db.Column
 
 @app.route('/')
 def hello_world():

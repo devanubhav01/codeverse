@@ -13,4 +13,4 @@ int main(){
     head->link=NULL;
     printf("%d",head->data);
     return 0;
-}
+} 

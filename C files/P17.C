@@ -30,8 +30,7 @@ int main(){
     // s.arr = (int *)malloc(s.size * sizeof(int));
 
     struct stack *s;
-    s = (struct stack *)malloc(sizeof(struct stack));
-
+    
     s->size = 50;
     s->top = -1;
     s->arr = (int *)malloc(s->size * sizeof(int));

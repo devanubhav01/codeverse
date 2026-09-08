@@ -34,14 +34,14 @@ int main(){
     s->top = -1;
     s->arr = (int *)malloc(s->size * sizeof(int));
 
-    s->arr[0] = 4;
-    s->top++;
+    // s->arr[0] = 4;
+    // s->top++;
 
-    if(isEmpty(s)){
-        printf("the stack is empty");
-    }else{
-        printf("the stack is not empty");
-    }
+    // if(isEmpty(s)){
+    //     printf("the stack is empty");
+    // }else{
+    //     printf("the stack is not empty");
+    // }
 
     return 0;
 }

@@ -207,7 +207,7 @@ int main()
     // head = del_last(head);
     // del_last(head);
    // del_pos(&head, 1);
-    // head = del_list(head);
+    // head = del_last(head);
     //   head = reverse(head);
     print_data(head);
 

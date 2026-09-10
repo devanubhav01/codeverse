@@ -8,6 +8,7 @@ struct node
 };
 
 void enqueue(struct node *f,struct node *r,int val){
+    struct node *n = (struct node *)malloc(sizeof(struct node));
     
 }
 

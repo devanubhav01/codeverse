@@ -66,9 +66,9 @@ int main()
     q.arr = (int *)malloc(q.size * sizeof(int));
 
     
-    printf("Enqued element %d\n", dequeue(&q));
-    printf("Enqued element %d\n", dequeue(&q));
-    printf("Enqued element %d\n", dequeue(&q));
+    printf("Enqued element %d\n", enqueue(&q,45));
+    printf("Enqued element %d\n", enqueue(&q,45));
+    printf("Enqued element %d\n", enqueue(&q,45));
 
     printf("Dequeuing element %d\n", dequeue(&q));
     printf("Dequeuing element %d\n", dequeue(&q));

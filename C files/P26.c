@@ -21,6 +21,6 @@ struct node
 
 int main(){
     struct node *f = NULL;
-    struct node *f = NULL;
+    struct node *r = NULL;
     return 0;
 }

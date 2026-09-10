@@ -70,9 +70,9 @@ int main()
     enqueue(&q, 15);
     enqueue(&q, 1);
     // enqueue(&q, 10);
-    // printf("Dequeuing element %d\n", dequeue(&q));
-    // printf("Dequeuing element %d\n", dequeue(&q));
-    // printf("Dequeuing element %d\n", dequeue(&q));
+    printf("Dequeuing element %d\n", dequeue(&q));
+    printf("Dequeuing element %d\n", dequeue(&q));
+    printf("Dequeuing element %d\n", dequeue(&q));
     
 
     if (isEmpty(&q))

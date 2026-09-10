@@ -13,7 +13,7 @@ void enqueue(struct node *f,struct node *r,int val){
          printf("Queue is full");
      }else{
          n->data = val;
-         
+         n->link = NULL;
      }
 }
 

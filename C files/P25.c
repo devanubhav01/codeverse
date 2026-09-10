@@ -73,9 +73,7 @@ int main()
     // printf("Dequeuing element %d\n", dequeue(&q));
     // printf("Dequeuing element %d\n", dequeue(&q));
     // printf("Dequeuing element %d\n", dequeue(&q));
-    dequeue(&q);
-    dequeue(&q);
-    dequeue(&q);
+    
 
     if (isEmpty(&q))
     {

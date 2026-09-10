@@ -31,5 +31,6 @@ void enqueue(struct node *f,struct node *r,int val){
 int main(){
     struct node *f = NULL;
     struct node *r = NULL;
+    enqueue(f, r, 50);
     return 0;
 }

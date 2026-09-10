@@ -18,7 +18,7 @@ void enqueue(struct node *f,struct node *r,int val){
              f = r = n;
          }else{
              r->link = n;
-             
+             r = n;
          }
      }
 }

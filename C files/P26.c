@@ -7,6 +7,9 @@ struct node
     struct node *link;
 };
 
+void enqueue(struct node *f,struct node *r,int val){
+    
+}
 
 
 

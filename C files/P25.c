@@ -27,7 +27,7 @@ int isFull(struct queue *q)
     return 0;
 }
 
-void enqueue(struct queue *q, int data)
+int enqueue(struct queue *q, int data)
 {
     if (isFull(q))
     {

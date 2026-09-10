@@ -37,8 +37,9 @@ int enqueue(struct queue *q, int data)
     {
         q->r = (q->r + 1) % q->size;
         q->arr[q->r] = data;
-        int 
+        int value = q->arr[q->r];
     }
+    
 }
 
 int dequeue(struct queue *q)

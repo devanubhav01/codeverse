@@ -67,8 +67,8 @@ int main()
 
     
     printf("Enqued element %d\n", enqueue(&q,45));
-    printf("Enqued element %d\n", enqueue(&q,45));
-    printf("Enqued element %d\n", enqueue(&q,45));
+    printf("Enqued element %d\n", enqueue(&q,50));
+    printf("Enqued element %d\n", enqueue(&q,55));
 
     printf("Dequeuing element %d\n", dequeue(&q));
     printf("Dequeuing element %d\n", dequeue(&q));

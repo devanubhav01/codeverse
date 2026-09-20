@@ -1,4 +1,4 @@
-class Employee{
+class Employee10{
     int salary;
 
     public int getSalary() {
@@ -18,7 +18,7 @@ class Employee{
 
 public class Q01 {
    public static void main(String[] args) {
-       Employee a = new Employee();
+       Employee10 a = new Employee10();
        a.setName("kim");
        a.salary = 50000;
        System.out.println(a.getSalary());

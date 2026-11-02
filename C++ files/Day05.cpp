@@ -15,7 +15,9 @@ int main() {
 
     // cout << "Reversed Number = " << reversed << endl;
     int a=1;
-    int b=a++
+    int b = a++ + ++a;
+
+    
 
     return 0;
 }
